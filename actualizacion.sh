@@ -20,10 +20,19 @@ sudo apt update
 
 sudo apt install brave-browser
 
+#configuracion de idioma pra español
+
+sudo dpkg-reconfigure locales
+
+#agregar usuario
+
+adduser mielsen
+
 #ip 
 
 ifconfig
 
 #apagar
 
-shutdown
+reboot
+
